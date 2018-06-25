@@ -1,102 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Moments</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Framework liker</title>
 </head>
 <body>
-
-  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-    <div class="container-fluid">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#" onclick="selectCity('New York')">New York</a>
-        <a class="nav-item nav-link" href="#" onclick="selectCity('Miami')">Miami</a>
-        <a class="nav-item nav-link" href="#" onclick="selectCity('Los Angeles')">Los Angeles</a>
-        <a class="nav-item nav-link" href="#" onclick="selectCity('Washington')">Washington</a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="header-photo">
-          <img data-bind="attr: {src: currentCityPhoto()}" class="head-photo"></img>
-          <div class="header-title">
-            <h1 class="title" data-bind="text: currentCity()">New York</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row row-photo">
-      <div class="col-md-4">
-        <div class="photo-outer">
-          <a onclick="showModWindow('01')">
-            <img data-bind="attr: {src: currentPhotos()[0][0]}" class="content-photo">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="photo-outer">
-          <a onclick="showModWindow('02')">
-            <img data-bind="attr: {src: currentPhotos()[1][0]}" class="content-photo">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="photo-outer">
-          <a onclick="showModWindow('03')">
-            <img data-bind="attr: {src: currentPhotos()[2][0]}" class="content-photo">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row row-photo">
-      <div class="col-md-4">
-        <div class="photo-outer">
-          <a onclick="showModWindow('04')">
-            <img data-bind="attr: {src: currentPhotos()[3][0]}" class="content-photo">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="photo-outer">
-          <a onclick="showModWindow('05')">
-            <img data-bind="attr: {src: currentPhotos()[4][0]}" class="content-photo">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="photo-outer">
-          <a onclick="showModWindow('06')">
-            <img data-bind="attr: {src: currentPhotos()[5][0]}" class="content-photo">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <a onclick="closeModWindow()">
-    <div class="mod-window" data-bind="style: {display: modWindowOn() ? 'block' : 'none'}">
-      <div class="mod-outer">
-          <div class="mod-photo"><img data-bind="attr: {src: currentPlacePhoto}" class="full-photo"></div>
-          <div class="mod-description">
-            <h2 data-bind="text: currentPlaceTitle">Empty string</h2>
-            <hr>
-            <p data-bind="text: currentPlaceDescription">Just Text</p>
-          </div>
-      </div>
-    </div>
-  </a>
-
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <script type='text/javascript' src='js/knockout-3.4.2.js'></script>
-  <script type='text/javascript' src='js/app.js'></script>
+  <h4 title="GossJS" id="author">Павел Бажан</h4>
+  <div class="cont"></div>
+  <script src="script_small.js"></script>
 </body>
 </html>
